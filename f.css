@@ -73,18 +73,12 @@
   
     /* General Styles */
 body {
- position: static;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(logo/faculty.png);
-
+  background-color: #f9f9f9;
+  color: #333;
 }
-
-
-
-
-
 
 header {
   text-align: center;
@@ -144,7 +138,7 @@ header nav {
 header nav a {
   
   text-decoration: none;
-
+  margin: 0 10px;
 
 }
 
@@ -153,20 +147,16 @@ header nav a:hover {
 }
 
 .main.title {
-  margin-left: 0px;
+  margin-left: 10px;
   font-size: 2.0em;
 
 }
 
-
 .subtitle {
- font-style: normal;
+  font-style: italic;
   text-align: center;
-   /*margin-top: 0px;*/ 
+  /* margin-top: 5px; */
   font-size: 1.5em;
-margin-top: 10px;
-gap: 10px;
-  
 }
 
 /* Course Container Styles */
@@ -205,6 +195,11 @@ gap: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
+
+/*about us*/
+
+
 
 /* Footer */
 footer {
